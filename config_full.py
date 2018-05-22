@@ -5,7 +5,7 @@ class BaseConfig():
     def __init__(self):
 
         self.IsTraining = False
-
+        self.LoadFileName = "checkpoints_20180520_193516FULL_102420482048drop2_rotateX"  #this is the file name of the network parameters
         self.Height = 256
         self.Width = 256
         self.Channel = 1
@@ -40,7 +40,7 @@ class BaseConfig():
         self.ModelDir = os.path.join(currentPath,"save_model")
         self.CheckpointDir = os.path.join(self.ModelDir,"checkpoints", "checkpoints_"+
                                           time.strftime("%Y%m%d_%H%M%S", time.localtime(time.time()))+ self.ModelName)
-        self.LoadModelDir = os.path.join(self.ModelDir,"checkpoints","checkpoints_20180520_193516FULL_102420482048drop2_rotateX")
+        self.LoadModelDir = os.path.join(self.ModelDir,"checkpoints",self.loadFileName)
 
         self.PlayResultDir = os.path.join(currentPath, "play", "results_"+time.strftime("%Y_%m_%d_%H_%M_%S",
                                                                             time.localtime(time.time())) + self.ModelName)
