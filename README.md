@@ -6,9 +6,13 @@ The robot has a frame to help the algorithm to quantify the transformation. Acco
 
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/frame.png)
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/2Dimage.png)
+
 > the initial location of frame
+
+
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/frame2.png)
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/2Dimage2.png)
+
 > the location after transformation
 ## 2 Project Structure
 - networks
@@ -16,17 +20,17 @@ The robot has a frame to help the algorithm to quantify the transformation. Acco
 - play
   > this archive contains the tensorboard files while run the networks has been trained
 - RawDataFullConnect
-  >the rawdata
+  > the rawdata
 - save model 
-  >this archive contains the parameters of a trained nerual network
+  > this archive contains the parameters of a trained nerual network
 - tfboard
-> this archive contains tensorboard files while training
+  > this archive contains tensorboard files while training
 - config_full.py
-> the overall configuration
+  > the overall configuration
 - GetMarkLocation.py
-> preprocess the rawdata
+  > preprocess the rawdata
 - Main_FullConnect.py
-> main function of the projects
+  > main function of the projects
 
 ## 3 Usage
 ### 3.1 To Train The Network
