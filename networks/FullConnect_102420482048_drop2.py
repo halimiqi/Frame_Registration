@@ -195,17 +195,17 @@ class  FullConnect(object):
         y_out = y*std + mean
         acc = self.acc.eval({self.X:x,self.Y:y, self.keepProb:1})
 
-        # if not os.path.exists(self.Config.PlayResultDir):
-        #     os.makedirs(self.Config.PlayResultDir)
-        # np.save(os.path.join(self.Config.PlayResultDir, "pred.npy"), pred_out)
-        # np.save(os.path.join(self.Config.PlayResultDir, "standard.npy"), y_out)
-        # with open(os.path.join(self.Config.PlayResultDir, "results.txt"), 'a') as f:
-        #     f.write(30*"#" + str(acc) + 30* "#" + '\n')
-        #     for i in range(0,pred_out.shape[0]):
-        #         f.write(30 * "=" + "\n")
-        #         f.write(str(pred_out[i,...]) + "\n")
-        #         f.write(str(y_out[i,...]) + "\n")
-        #         f.write("\n" + 30 * "=" + "\n")
+        if not os.path.exists(self.Config.PlayResultDir):
+            os.makedirs(self.Config.PlayResultDir)
+        np.save(os.path.join(self.Config.PlayResultDir, "pred.npy"), pred_out)
+        np.save(os.path.join(self.Config.PlayResultDir, "standard.npy"), y_out)
+        with open(os.path.join(self.Config.PlayResultDir, "results.txt"), 'a') as f:
+            f.write(30*"#" + str(acc) + 30* "#" + '\n')
+            for i in range(0,pred_out.shape[0]):
+                f.write(30 * "=" + "\n")
+                f.write(str(pred_out[i,...]) + "\n")
+                f.write(str(y_out[i,...]) + "\n")
+                f.write("\n" + 30 * "=" + "\n")
         print(np.mean(np.abs(pred_out-y_out), axis = 0))
         print(np.std(np.abs(pred_out-y_out), axis = 0))
         return

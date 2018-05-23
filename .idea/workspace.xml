@@ -23,8 +23,8 @@
       <file leaf-file-name="FullConnect_102420482048_drop2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/networks/FullConnect_102420482048_drop2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3857">
-              <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
+            <state relative-caret-position="190">
+              <caret line="199" column="65" lean-forward="true" selection-start-line="199" selection-start-column="57" selection-end-line="199" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file leaf-file-name="Main_Play.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main_Play.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="223">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
                 <element signature="e#53#76#0" expanded="true" />
               </folding>
@@ -83,8 +83,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="447">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,18 +147,18 @@
         <option value="$PROJECT_DIR$/Main_Play.py" />
         <option value="$PROJECT_DIR$/SummarizeAndPlot/GetMarkLocation_summary.py" />
         <option value="$PROJECT_DIR$/Main_FullConnect.py" />
-        <option value="$PROJECT_DIR$/networks/FullConnect_102420482048_drop2.py" />
         <option value="$PROJECT_DIR$/SummarizeAndPlot/Summarize.py" />
         <option value="$PROJECT_DIR$/config_full.py" />
+        <option value="$PROJECT_DIR$/networks/FullConnect_102420482048_drop2.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-80" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-2043" />
+    <option name="y" value="-17" />
+    <option name="width" value="1858" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -186,6 +186,11 @@
             <path>
               <item name="Frame_Registration" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frame_Registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frame_Registration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frame_Registration" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,14 +344,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-80" width="1936" height="1056" extended-state="6" />
+    <frame x="-2043" y="-17" width="1858" height="1055" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28076923" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5887265" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3298731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -618,23 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/networks/FullConnect_102420482048_drop2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3857">
-          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_Play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#53#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main_FullConnect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -662,10 +650,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main_Play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#53#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/networks/FullConnect_102420482048_drop2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="199" column="65" lean-forward="true" selection-start-line="199" selection-start-column="57" selection-end-line="199" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="447">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
         </state>
       </provider>
     </entry>

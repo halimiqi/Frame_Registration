@@ -1,12 +1,15 @@
 # Robot Frame Registration
------
 ## 1 Overview
 this algorithm calculates the transformation of location of a surgical robot using the nurual network.
 
 The robot has a frame to help the algorithm to quantify the transformation. According to the 2D images from MRI scan, the algorithm produces the 6 parameter of the transformation to get the new location of the robot's frame.
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
-
+![](https://github.com/halimiqi/Frame_Registration/blob/master/images/frame.png)
+![](https://github.com/halimiqi/Frame_Registration/blob/master/images/2Dimage.png)
+> the initial location of frame
+![](https://github.com/halimiqi/Frame_Registration/blob/master/images/frame2.png)
+![](https://github.com/halimiqi/Frame_Registration/blob/master/images/2Dimage2.png)
+> the location after transformation
 ## 2 Project Structure
 - networks
   > this archive contains nerual networks with different stucture
@@ -34,6 +37,10 @@ run `Main_FullConnect.py`
 set the variable `self.IsTraining = True` in the `config_full.py`
 
 run`Main_FullConnect.py`
+
+the output is`pred.npy`. It is an 2D numpy array, first axis is the index of the transformation, second axis is the transformation. The format of the transformation is `[translationX, translationY, translationZ, rotationX,rotationY, rotationZ]`
+The unit of transformation is mm and °`
+
 
 
 
