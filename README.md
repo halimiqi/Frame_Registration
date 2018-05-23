@@ -5,6 +5,7 @@ this algorithm calculates the transformation of location of a surgical robot usi
 The robot has a frame to help the algorithm to quantify the transformation. According to the 2D images from MRI scan, the algorithm produces the 6 parameter of the transformation to get the new location of the robot's frame.
 
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/frame.png)
+
 ![](https://github.com/halimiqi/Frame_Registration/blob/master/images/2Dimage.png)
 
 > the initial location of frame
