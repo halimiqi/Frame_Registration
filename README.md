@@ -42,8 +42,8 @@ set the variable `self.IsTraining = True` in the `config_full.py`
 
 run`Main_FullConnect.py`
 
-the output is`pred.npy`. It is an 2D numpy array, first axis is the index of the transformation, second axis is the transformation. The format of the transformation is `[translationX, translationY, translationZ, rotationX,rotationY, rotationZ]`
-The unit of transformation is mm and °`
+the output is`pred.npy`. It is an 2D numpy array, the first axis is the index of the images,the second axis is the transformation. The format of the transformation is `[translationX(mm), translationY(mm), translationZ(mm), rotationX°,rotationY°, rotationZ°]`
+
 
 
 
