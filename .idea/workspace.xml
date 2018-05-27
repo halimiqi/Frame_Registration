@@ -77,8 +77,8 @@
       <file leaf-file-name="config_full.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_full.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="35" column="133" selection-start-line="35" selection-start-column="133" selection-end-line="35" selection-end-column="133" />
+            <state relative-caret-position="451">
+              <caret line="35" column="131" lean-forward="true" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -157,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-897" />
     <option name="y" value="-94" />
     <option name="width" value="1780" />
@@ -651,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config_full.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="35" column="133" selection-start-line="35" selection-start-column="133" selection-end-line="35" selection-end-column="133" />
+        <state relative-caret-position="451">
+          <caret line="35" column="131" lean-forward="true" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,6 @@ class BaseConfig():
         self.ModelName = "FULL_102420482048drop2_Test"  # the name of this network, it will shows as the folder name at save_model/checkpoints/ModelName
         currentPath = os.path.dirname(os.path.realpath(__file__))
         self.TFBoardPathTrain = os.path.join(currentPath,"tfboard",time.strftime("%Y_%m_%d_%H_%M_%S",
-                                                                            time.localtime(time.time())) + self.ModelName, "Train")  
                                                                             time.localtime(time.time())) + self.ModelName, "Train")
         self.TFBoardPathValid = os.path.join(currentPath,"tfboard",time.strftime("%Y_%m_%d_%H_%M_%S",
                                                                             time.localtime(time.time())) + self.ModelName, "Valid")
